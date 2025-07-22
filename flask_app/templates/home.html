@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NBA Player Predictor</title>
+</head>
+<body>
+    <h1>Enter Your NBA Stats</h1>
+    
+    <form action="/" method="POST">
+        <label>Season:</label><br>
+        <select name="Season" required>
+            <option value="R">Regular Season</option>
+            <option value="P">Playoffs</option>
+        </select><br><br>
+
+        <label>Points:</label><br>
+        <input type="number" name="PTS" step="any" required><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="Age" step="any" required><br>
+
+        <label>Usage Rate:</label><br>
+        <input type="number" name="Usage_Rate" step="any" required><br>
+
+        <label>AST:</label><br>
+        <input type="number" name="AST" step="any" required><br>
+
+        <label>TRB:</label><br>
+        <input type="number" name="TRB" step="any" required><br>
+
+        <label>STL:</label><br>
+        <input type="number" name="STL" step="any" required><br>
+
+        <label>BLK:</label><br>
+        <input type="number" name="BLK" step="any" required><br>
+
+        <label>3P%:</label><br>
+        <input type="number" name="ThreeP" step="any" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+</body>
+</html>
